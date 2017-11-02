@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<div>
+		<input type="checkbox" class="checkAll">全部<br>
+		<input type="checkbox"  name="check" class="check">1<br>
+		<input type="checkbox"  name="check" class="check">2<br>
+	</div>
+</body>
+<script type="text/javascript" src="jquery-1.10.2.min.js"></script>
+<script type="text/javascript" src="index.js"></script>
+<script type="text/javascript">
+	$(".checkAll").selectAll({
+		name:"check"
+	})
+</script>
+</html>
